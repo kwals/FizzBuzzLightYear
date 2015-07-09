@@ -68,7 +68,6 @@ class FizzyBuzzyTest < MiniTest::Test
   def test_lcm_can_check_easy_numbers
     f = Fuzz.new
     assert_equal f.lowest_common_multiple(3,6), 6
-    # NUMBER ORDER ^ this fails, but the next one works..
     assert_equal f.lowest_common_multiple(6,3), 6
     assert_equal f.lowest_common_multiple(5,10), 10
   end
