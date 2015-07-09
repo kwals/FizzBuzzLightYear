@@ -48,7 +48,6 @@ class Fuzz
 
 end
 
-binding.pry
 
 class FizzyBuzzyTest < MiniTest::Test
 
